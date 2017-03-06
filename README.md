@@ -3,4 +3,4 @@ Sample application for the version control systems and continuous integration la
 **This text should be in bold**
 *While this in italic*
 **_This should be both_**
-~~And here is strikethrough from branch-A~~
+~~And here is strikethrough from branch-B~~
