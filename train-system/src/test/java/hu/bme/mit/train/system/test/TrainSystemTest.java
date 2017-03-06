@@ -18,6 +18,7 @@ public class TrainSystemTest {
 	@Before
 	public void before() {
 		TrainSystem system = new TrainSystem();
+		TachoGraph tacho = new TachoGraph();
 		controller = system.getController();
 		sensor = system.getSensor();
 		user = system.getUser();
@@ -57,5 +58,12 @@ public class TrainSystemTest {
 		user.overrideJoystickPosition(-4);
 		controller.followSpeed();
 		Assert.assertEquals(31, controller.getReferenceSpeed());
+	}
+	
+	@Test
+	public void test4() {
+		tacho.init();
+		tacho.put(1,1,1);
+		Assert.assertEquals(3, tacho.size());
 	}
 }
