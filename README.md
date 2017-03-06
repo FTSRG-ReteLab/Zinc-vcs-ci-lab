@@ -2,4 +2,5 @@
 Sample application for the version control systems and continuous integration laboratory
 **This text should be in bold**
 *While this in italic*
-_**This should be both**_
+**_This should be both_**
+~~And here is strikethrough~~
